@@ -1,2 +1,3 @@
-No Javascript
+**No Javascript.**
+
 Used css all-new features 
