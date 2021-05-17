@@ -29,6 +29,7 @@
   transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s;
   color: white;
   font: 300 1rem var(--mainFont);
+  cursor: pointer;
 }
 .btn:hover {
   background-color: var(--hoverAcsentColot);
@@ -48,7 +49,7 @@
 .up-btn {
   position: sticky;
   margin-left: auto;
-  top: 650px;
+  top: 550px;
   width: 48px;
   height: 48px;
   z-index: 10;
@@ -95,9 +96,10 @@ header {
   color: #fff;
 }
 header nav .ionicon {
-  display: none;
+  cursor: pointer;
   color: white;
   width: 48px;
+  display: none;
 }
 header nav a {
   display: block;
@@ -120,11 +122,6 @@ header nav.row a {
 }
 header nav img {
   width: 120px;
-}
-header nav ion-icon {
-  font-size: 2rem;
-  color: white;
-  cursor: pointer;
 }
 header h1 {
   font-weight: 300;
@@ -175,7 +172,9 @@ header a.btn {
   padding-top: 5px;
   color: var(--acsentColor);
 }
-
+.steps-content a {
+  cursor: pointer;
+}
 /*  -- cities  --  */
 .cities {
   background-color: #fff;
@@ -270,7 +269,8 @@ footer {
   background-color: rgb(24, 24, 24);
   color: rgb(136, 135, 135);
 }
-footer a {
+footer a,
+footer a ion-icon {
   color: rgb(146, 143, 143);
 }
 footer p {
